@@ -10,7 +10,7 @@ Fake news is not a new problem for today’s world, it was since the start of th
 The proposed solution uses supervised learning. The dataset when created has to be pre-processed before it is fed to the model for training and testing. Once a satisfactory accuracy is achieved, the model then has to be integrated with the web application. Once the web application is ready, it can be deployed on the web.
 
 ## Dataset:
-The dataset used for classification of fake news is available on www.Kagglecom. Apart from this, we also scrapped around 2000 news articles from www.PolitiFact.com. CASIA Dataset has been used to identify fake news in the form of morphed images. The dataset for classifying tweets is small based on COVID-19 related tweets.
+The dataset used for classification of fake news is available on www.Kaggle.com. Apart from this, we also scrapped around 2000 news articles from www.PolitiFact.com. CASIA Dataset has been used to identify fake news in the form of morphed images. The dataset for classifying tweets is small based on COVID-19 related tweets.
 
 ## Models used:
 For the classification of fake news in the form of text and tweets, LSTM model has been used. CNN has been used for classifying morphed/distorted/fake images.
