@@ -1,4 +1,4 @@
-# Vastavikta-The-Rumour-Detector
+# Vastavikta-The Rumour Detector
 
 ## Overview:
 A deep-learning based web application designed to classify fake news in the form of text and images along with a real-time classification of tweets. Technology stack: TensorFlow, Keras, Flask, HTML, CSS, Bootstrap, Selenium.
