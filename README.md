@@ -33,4 +33,4 @@ A web application has been designed by integrating the above mentioned models wi
 
 
 ## Video Demonstration
-![](https://youtu.be/wDw_a0sWBh0)
+[![](https://img.youtube.com/vi/https://youtu.be/wDw_a0sWBh0/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/wDw_a0sWBh0)
