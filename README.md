@@ -17,3 +17,7 @@ For the classification of fake news in the form of text and tweets, LSTM model h
 
 ## Web App:
 A web application has been designed by integrating the above mentioned models with the user interface. The simple user interface lets users seamlessly classify the fake news.
+
+## UI
+1. Landing Page
+![](UI-Images/UI.png)
