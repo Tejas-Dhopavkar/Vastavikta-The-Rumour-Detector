@@ -30,3 +30,7 @@ A web application has been designed by integrating the above mentioned models wi
 
 4. Real-time classification of tweets
 ![](UI-Images/tweet_classification_3.png)
+
+
+## Video Demonstration
+![](https://youtu.be/wDw_a0sWBh0)
