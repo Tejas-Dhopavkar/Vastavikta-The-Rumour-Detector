@@ -21,3 +21,12 @@ A web application has been designed by integrating the above mentioned models wi
 ## UI
 1. Landing Page
 ![](UI-Images/UI.png)
+
+2. Classification of fake news in text form
+![](UI-Images/text_classification_fake.png)
+
+3. Classification of fake news in image form
+![](UI-Images/image_classification_fake.png)
+
+4. Real-time classification of tweets
+![](UI-Images/tweet_classification_3.png)
