@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vastavikta</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+        <style>
+          
+            .main-div{
+                height: 100vh;
+                width: 100%;
+                background: radial-gradient(#530a7c, #43056f, #340266)
+            }
+           /* .main-class{
+                background: url("C:/Users/DELL/Work/Fake news/images/lap2.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+                width: 100%;
+            } */
+            .main-image{
+                position: absolute;
+                top: 7.5%;
+                left: 6%;
+                height: 100%;
+            }
+            .main-div h2{
+                color: white;
+                position: absolute;
+                top: 35%;
+                left:55%
+            }
+            .main-div h4{
+                color: white;
+                position: absolute;
+                top: 45%;
+                left:54%
+            }
+            .main-button{
+                position: absolute;
+                top: 55%;
+                left:60%;
+                height: 10%;
+                width: 20%;
+                background: transparent;
+                color: white;
+                border: 2px solid #db25c6;
+                border-radius: 5px;
+                z-index: 100;
+            }
+            .main-button:hover{
+                color: #43056f;
+                background-color: white;
+               transition: 1s;
+               border: 2px solid white;
+            }
+            .active{
+                border-bottom: 4px solid #db25c6;
+            }
+            .footer{
+                background: #072a42 ;
+                color: white;
+                padding: 2%;
+            }
+            .main-div ul{
+                padding: 0;
+                text-decoration: none;
+                margin-top: 5px;
+            }
+            .main-div li{
+               display: inline;
+               color: white;
+               font-size: larger;
+               
+            }
+            .list{
+                float: right;
+                margin-right: 3%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Classify news</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contact us</a>
+                </li>
+            </ul>
+            <a class="navbar-brand" href="#">Navbar</a>
+            <a class=""></a>
+          </nav> -->
+
+          <div class="container-fluid main-class">
+              <div class="row">
+
+                
+                      <!-- <ul>
+                          <li>Home</li>
+                          <li>About us</li>
+                          <li>Classify</li>
+                          <li>Contact us</li>
+                      </ul> -->
+                  
+                
+                <div class="main-div">
+                    
+                    <ul>
+                        <li><span style="float:left; margin-left: 3%;"><h3>Vastavikta</h3></span></li>
+                        
+                        <a href="#"><li class="list">Contact us</li></a>
+                        <a href="{{ url_for('classify') }}"><li class="list">Classify</li></a>
+                        <a href="#"><li class="list">About us</li></a>
+                        <a href="#"><li class="list active">Home</li></a>
+                    </ul>
+
+                    <h2>Vastavikta: The Rumor Detector</h2>
+                    <h4>Make sure you read and propagate the truth</h4>
+                    <button class="main-button">Check the validity of news here</button>
+                    <img src="{{url_for('static', filename='lap8.png')}}" class="main-image">
+                </div>
+              </div>
+          </div>
+
+          <footer>
+              <div class="container-fluid footer">
+                  <div class="row">
+                    <div class="col-lg-3">
+                        <h4>About us</h4>
+                        
+                   </div>
+              <div class="col-lg-3">
+                   <h4>Vastavikta</h4>
+                   In this guided tutorial, we will train a Bidirectional Neural Network and LSTM based deep learning model to detect fake news from a given news corpus. This tutorial could be practically used by any media company to automatically predict whether the circulating news is fake or not. The process could be done automatically without having humans manually review thousands of news related articles.
+              </div>
+              <div class="col-lg-3">
+                  <h4>Contact us</h4>
+                  <ul>
+                      <li>Email: 2018.tejas.dhopavkar@ves.ac.in</li>
+                      <li>Contact us: +91 8828005666</li>
+                      <li>Address: VESIT</li>
+                  </ul>
+              </div>
+              <div class="col-lg-3">
+                  <h4>Links</h4>
+                  <ul>
+                      <li>Home</li>
+                      <li>Home</li>
+                      <li>Home</li>
+                      <li>Home</li>
+                  </ul>
+            </div>
+            </div>
+        </div>
+          </footer>
+
+    </body>
+</html>
